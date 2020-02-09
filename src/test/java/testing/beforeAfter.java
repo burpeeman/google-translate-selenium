@@ -11,6 +11,8 @@ public class beforeAfter {
 	@BeforeSuite
 	public void before() {
 		
+		System.out.println("Hello nitha");
+		
 		System.setProperty("webdriver.chrome.driver", "C:\\jar_files\\geckodriver-v0.24.0-win64\\chromedriver.exe");		
 		 driver = new ChromeDriver();
 		
